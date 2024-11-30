@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(135deg, #ff416c 0%, #ff416c 100%);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@ body {
 }
 
 .register-button:hover {
-    background: #1a5dbb;
+    background: #ff416c;
 }
 
 /* Footer */
@@ -87,13 +87,13 @@ body {
 }
 
 .register-link {
-    color: #2575fc;
+    color: #ff416c;
     cursor: pointer;
     text-decoration: underline;
 }
 
 .register-link:hover {
-    color: #1a5dbb;
+    color: #ff416c;
 }
 
 /* Mensajes de error y éxito */
