@@ -22,7 +22,7 @@ body {
   
   /* Tarjeta de registro */
   .register-card {
-    background: #ffffff;
+    background: #666666;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 3rem;
@@ -51,12 +51,12 @@ body {
     width: 100%;
     padding: 0.8rem;
     margin: 0.5rem 0;
-    border: 2px solid #e0e0e0;
+    border: 2px solid #666666;
     border-radius: 10px;
     font-size: 1rem;
     outline: none;
     transition: all 0.3s ease;
-    background-color: #f9f9f9;
+    background-color: #666666;
   }
   
   .register-input:focus {
