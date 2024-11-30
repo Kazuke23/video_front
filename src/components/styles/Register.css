@@ -22,7 +22,7 @@ body {
   
   /* Tarjeta de registro */
   .register-card {
-    background: #666666;
+    background: #ffffff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 3rem;
@@ -51,17 +51,17 @@ body {
     width: 100%;
     padding: 0.8rem;
     margin: 0.5rem 0;
-    border: 2px solid #666666;
+    border: 2px solid #e0e0e0;
     border-radius: 10px;
     font-size: 1rem;
     outline: none;
     transition: all 0.3s ease;
-    background-color: #666666;
+    background-color: #f9f9f9;
   }
   
   .register-input:focus {
     border-color: #ff416c;
-    background-color: #ffffff;
+    background-color: #666666;
   }
   
   /* Botones */
@@ -71,7 +71,7 @@ body {
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     border: none;
     border-radius: 30px;
-    color: #ffffff;
+    color: #666666;
     font-size: 1rem;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
