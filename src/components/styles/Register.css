@@ -1,3 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); /* Gradiente de fondo */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+
 /* Contenedor principal */
 .register-container {
     display: flex;
