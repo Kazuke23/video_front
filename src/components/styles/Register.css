@@ -61,7 +61,7 @@ body {
   }
   
   .register-input::placeholder {
-    color: #b0b0b0; /* Placeholder gris claro */
+    color: #f9f9f9; /* Placeholder gris claro */
   }
   
   .register-input:focus {
