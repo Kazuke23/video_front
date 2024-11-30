@@ -21,29 +21,30 @@ const Login = () => {
         body: JSON.stringify(loginData),
       });
 
-      const data = await response.json();
+      // Verificar si la respuesta es válida JSON
+      let data;
+      try {
+        data = await response.json();
+      } catch (jsonError) {
+        throw new Error('Respuesta no válida del servidor.');
+      }
 
       if (response.ok) {
-        // Si el login es exitoso, muestra el mensaje con el nombre del usuario
-        alert(data.message); // Mostramos el mensaje de bienvenida con el nombre
+        // Si el login es exitoso, mostramos el mensaje del backend
+        alert(data.message);
 
-        // Almacenar el nombre y correo del usuario en el localStorage
-        const userName = data.message.split(' ')[3]; // Aquí extraemos el nombre (a partir de la respuesta del backend)
-        const userEmail = correo;
-
-        // Guardar en localStorage
-        localStorage.setItem('userName', userName);
-        localStorage.setItem('userEmail', userEmail);
+        // Guardar datos relevantes en localStorage
+        localStorage.setItem('user', JSON.stringify({ name: data.name, email: correo }));
 
         // Redirigir a DashboardMain
         navigate('/dashboard-main');
       } else {
-        // Si ocurre un error en el login
-        alert(data.message);
+        // Manejo de errores del backend
+        alert(data.message || 'Error al iniciar sesión');
       }
     } catch (error) {
       console.error('Error al hacer login:', error);
-      alert('Hubo un error al intentar iniciar sesión');
+      alert('Hubo un error al intentar iniciar sesión.');
     }
   };
 
