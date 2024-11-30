@@ -62,7 +62,7 @@ body {
     box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
 }
 
-/* Botón */
+/* Botones */
 .register-button {
     background: #ff416c;
     color: #fff;
@@ -77,23 +77,7 @@ body {
 }
 
 .register-button:hover {
-    background: #ff416c;
-}
-
-/* Footer */
-.register-footer {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-}
-
-.register-link {
-    color: #ff416c;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.register-link:hover {
-    color: #ff416c;
+    background: #e33a5c;
 }
 
 /* Mensajes de error y éxito */
@@ -104,14 +88,20 @@ body {
     border-radius: 5px;
     margin-bottom: 15px;
     text-align: center;
-  }
-  
-  .success-message {
+}
+
+.success-message {
     color: #4caf50;
     background-color: #e8f5e9;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
     text-align: center;
-  }
-  
+}
+
+/* Acciones de formulario */
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
