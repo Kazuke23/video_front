@@ -1,26 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
-
 /* Contenedor principal */
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to bottom, #ff4b2b, #ff416c, #6200ea);
   font-family: 'Montserrat', sans-serif;
 }
 
 /* Tarjeta de login */
 .login-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
   width: 400px;
   max-width: 90%;
   text-align: center;
@@ -29,9 +22,9 @@
 /* Título */
 .login-title {
   font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #333;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #333333;
 }
 
 /* Formulario */
@@ -46,44 +39,47 @@
   width: 100%;
   padding: 0.8rem;
   margin: 0.5rem 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
   font-size: 1rem;
   outline: none;
   transition: all 0.3s ease;
+  background-color: #f9f9f9;
 }
 
 .login-input:focus {
   border-color: #ff416c;
+  background-color: #ffffff;
 }
 
 /* Botón */
 .login-button {
   padding: 0.8rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   background: linear-gradient(to right, #ff4b2b, #ff416c);
   border: none;
-  border-radius: 5px;
-  color: #fff;
+  border-radius: 30px;
+  color: #ffffff;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .login-button:hover {
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(255, 65, 108, 0.4);
 }
 
 /* Pie de página */
 .login-footer {
-  margin-top: 1rem;
-  color: #666;
+  margin-top: 1.5rem;
+  color: #666666;
   font-size: 0.9rem;
 }
 
 .login-link {
   color: #ff416c;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
   transition: color 0.3s ease;
 }
