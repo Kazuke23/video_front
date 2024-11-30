@@ -17,7 +17,7 @@
 
 .dashboard-header h1 {
     font-size: 28px;
-    color: #007BFF; /* Azul para los encabezados */
+    color: #ff416c; /* Azul para los encabezados */
     margin-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #007BFF; /* Azul para etiquetas */
+    color: #ff416c; /* Azul para etiquetas */
 }
 
 .upload-section input {
@@ -107,7 +107,7 @@
 .input-group label {
     margin-bottom: 8px;
     font-weight: bold;
-    color: #007BFF;
+    color: #ff416c;
 }
 
 .input-group input,
@@ -122,7 +122,7 @@
 
 .input-group input:focus,
 .input-group textarea:focus {
-    border-color: #007BFF;
+    border-color: #ff416c;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
@@ -175,12 +175,12 @@ textarea {
 }
 
 .interaction-button:hover {
-    background-color: #0056b3;
+    background-color: #ff416c;
 }
 
 .file-select-button {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #ff416c;
     color: white;
     border: none;
     font-size: 16px;
@@ -194,7 +194,7 @@ textarea {
 }
 
 .file-select-button:hover {
-    background-color: #007BFF;
+    background-color: #ff416c;
 }
 
 .go-to-login-section {
@@ -203,7 +203,7 @@ textarea {
 }
 
 .go-to-login-button {
-    background-color: #007bff;
+    background-color: #ff416c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -214,7 +214,7 @@ textarea {
 }
 
 .go-to-login-button:hover {
-    background-color: #0056b3;
+    background-color: #ff416c;
 }
 
 .video-preview-container {

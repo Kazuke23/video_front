@@ -20,7 +20,7 @@
 
 .dashboard-header h1 {
     font-size: 30px;
-    color: #007BFF; /* Azul brillante */
+    color: #ff416c; /* Azul brillante */
     margin-bottom: 10px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .search-bar:focus {
-    border-color: #007BFF;
+    border-color: #ff416c;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
@@ -58,12 +58,12 @@
 }
 
 .header-button {
-    background-color: #007BFF;
+    background-color: #ff416c;
     color: white;
 }
 
 .header-button:hover {
-    background-color: #0056b3;
+    background-color: #ff416c;
 }
 
 .header-button:focus {
