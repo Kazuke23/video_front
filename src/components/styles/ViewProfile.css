@@ -3,7 +3,7 @@
     flex-direction: column;
     height: 100vh; /* Usar toda la altura de la ventana */
     overflow: hidden; /* Evitar scroll no deseado en el contenedor principal */
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Fondo con gradiente */
+    background: linear-gradient(135deg, #ff416c, #ff416c); /* Fondo con gradiente */
     color: white;
   }
   
@@ -38,7 +38,7 @@
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #ff416c;
     color: white;
     border: none;
     border-radius: 5px;
@@ -46,7 +46,7 @@
   }
   
   .header-button:hover {
-    background-color: #0056b3;
+    background-color: #ff416c;
     color: white;
   }
   
@@ -55,7 +55,7 @@
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #ff4d4d;
+    background-color: #ff416c;
     color: white;
     border: none;
     border-radius: 5px;
@@ -63,7 +63,7 @@
   }
   
   .logout-button:hover {
-    background-color: #cc0000;
+    background-color: #ff416c;
     color: white;
   }
   

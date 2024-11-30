@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to bottom, #ff4b2b, #ff416c);
+  background: linear-gradient(to bottom, #ff416c, #ff416c);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -85,5 +85,5 @@
 }
 
 .login-link:hover {
-  color: #ff4b2b;
+  color: #ff416c;
 }

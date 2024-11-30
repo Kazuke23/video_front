@@ -57,14 +57,14 @@ body {
 }
 
 .register-input:focus {
-    border-color: #2575fc;
+    border-color: #ff416c;
     outline: none;
     box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
 }
 
 /* Botón */
 .register-button {
-    background: #2575fc;
+    background: #ff416c;
     color: #fff;
     padding: 0.8rem;
     font-size: 1rem;
@@ -98,7 +98,7 @@ body {
 
 /* Mensajes de error y éxito */
 .error-message {
-    color: #f44336;
+    color: #ff416c;
     background-color: #ffdede;
     padding: 10px;
     border-radius: 5px;
