@@ -55,8 +55,8 @@ body {
     border-radius: 10px;
     font-size: 1rem;
     outline: none;
-    transition: all 0.3s ease;
-    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+    background-color: #ffffff; /* Fondo blanco fijo */
     color: #333333; /* Texto gris oscuro */
   }
   
@@ -65,8 +65,7 @@ body {
   }
   
   .register-input:focus {
-    border-color: #ff416c;
-    background-color: #ffffff;
+    border-color: #ff416c; /* Cambio de borde al hacer foco */
     color: #333333;
   }
   
