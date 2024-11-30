@@ -16,7 +16,7 @@ const ViewProfile = () => {
     // Función para obtener los videos subidos por el usuario
     const fetchUserVideos = async () => {
       try {
-        const response = await fetch(`https://back-notubeyet.vercel.app/v1/tubeyet/getUserVideos?email=${email}`);
+        const response = await fetch(`https://video-back.vercel.app/v1/tubeyet/getUserVideos?email=${email}`);
         if (response.ok) {
           const data = await response.json();
           setUserVideos(data);

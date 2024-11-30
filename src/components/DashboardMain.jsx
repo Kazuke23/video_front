@@ -10,7 +10,7 @@ const DashboardMain = () => {
   useEffect(() => {
     const fetchVideos = async () => {
       try {
-        const response = await fetch('https://back-notubeyet.vercel.app/v1/tubeyet/getVideos');
+        const response = await fetch('https://video-back.vercel.app/v1/tubeyet/getVideos');
         if (response.ok) {
           const data = await response.json();
           setVideos(data);
