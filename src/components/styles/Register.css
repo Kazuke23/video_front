@@ -57,7 +57,7 @@ body {
     outline: none;
     transition: all 0.3s ease;
     background-color: #f9f9f9;
-    color: #333333; /* Texto gris oscuro */
+    color: #f9f9f9; /* Texto gris oscuro */
   }
   
   .register-input::placeholder {
@@ -67,7 +67,7 @@ body {
   .register-input:focus {
     border-color: #ff416c;
     background-color: #ffffff;
-    color: #333333;
+    color: #f9f9f9;
   }
   
   /* Botones */
