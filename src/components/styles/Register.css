@@ -1,15 +1,3 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff416c, #ff4b2b); /* Gradiente de fondo */
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #fff;
-}
-
-
 /* Contenedor principal */
 .register-container {
     display: flex;
@@ -36,7 +24,7 @@ body {
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: #333333;
+    color: #333333; /* Gris oscuro */
   }
   
   /* Formulario */
@@ -57,11 +45,17 @@ body {
     outline: none;
     transition: all 0.3s ease;
     background-color: #f9f9f9;
+    color: #333333; /* Texto gris oscuro */
+  }
+  
+  .register-input::placeholder {
+    color: #b0b0b0; /* Placeholder gris claro */
   }
   
   .register-input:focus {
     border-color: #ff416c;
-    background-color: #666666;
+    background-color: #ffffff;
+    color: #333333;
   }
   
   /* Botones */
@@ -71,7 +65,7 @@ body {
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     border: none;
     border-radius: 30px;
-    color: #666666;
+    color: #ffffff;
     font-size: 1rem;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
@@ -80,6 +74,16 @@ body {
   .register-button:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(255, 65, 108, 0.4);
+  }
+  
+  /* Etiquetas */
+  label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333; /* Gris oscuro */
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: left;
   }
   
   /* Mensajes de error y éxito */
