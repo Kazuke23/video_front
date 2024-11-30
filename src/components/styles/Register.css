@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff416c 0%, #ff416c 100%);
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); /* Gradiente de fondo */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -17,6 +17,8 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 /* Tarjeta de registro */
@@ -24,25 +26,41 @@ body {
     background: #fff;
     color: #333;
     padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
     text-align: center;
 }
 
-/* Título */
+/* Título del formulario */
 .register-title {
     font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: #2575fc;
+    margin-bottom: 1.5rem;
+    color: #ff416c;
+    font-weight: bold;
 }
 
 /* Formulario */
 .register-form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    align-items: stretch; /* Asegura que los inputs y botones tengan el mismo ancho */
+    gap: 1.5rem;
+}
+
+/* Grupo de formularios */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+/* Etiquetas */
+.form-group label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #555;
 }
 
 /* Inputs */
@@ -51,15 +69,14 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    transition: all 0.3s ease;
-    width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
-    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+    width: 100%;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .register-input:focus {
     border-color: #ff416c;
     outline: none;
-    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+    box-shadow: 0 0 5px rgba(255, 65, 108, 0.5);
 }
 
 /* Botones */
@@ -71,31 +88,33 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    width: 100%; /* Asegura que el botón tenga el mismo ancho que los inputs */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
 }
 
 .register-button:hover {
     background: #e33a5c;
+    transform: scale(1.02);
 }
 
 /* Mensajes de error y éxito */
 .error-message {
     color: #ff416c;
-    background-color: #ffdede;
-    padding: 10px;
+    background-color: #ffe6eb;
+    padding: 0.8rem;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 
 .success-message {
     color: #4caf50;
     background-color: #e8f5e9;
-    padding: 10px;
+    padding: 0.8rem;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
     text-align: center;
 }
 
@@ -103,5 +122,5 @@ body {
 .form-actions {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
